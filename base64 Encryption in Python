@@ -1,0 +1,7 @@
+import base64
+
+original_value = "Enter Numerical Value To Get Encrypted Value"
+encoded_value = base64.b64encode(original_value.encode('utf-8')).decode('utf-8')
+
+print(encoded_value)
+
